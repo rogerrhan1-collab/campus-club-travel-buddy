@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Campus Club & Travel Buddy</title>
+</head>
+
+<body>
+
+    <h1>Campus Club Members</h1>
+
+    <h2>Add Member</h2>
+
+    <form action="/members" method="POST">
+
+        Member ID:
+        <input name="memberId" required><br><br>
+
+        Name:
+        <input name="name" required><br><br>
+
+        Club Name:
+        <input name="clubName" required><br><br>
+
+        Year:
+        <input type="number" name="year" required><br><br>
+
+        Role:
+        <input name="role" required><br><br>
+
+        Points:
+        <input type="number" name="points" required><br><br>
+
+        Interests:
+        <input name="interests" required><br><br>
+
+        Status:
+        <input name="status" required><br><br>
+
+        <button type="submit">Add Member</button>
+
+    </form>
+
+    <hr>
+
+    <h2>View Members</h2>
+
+    <a href="/members">
+        <button>Show All Members</button>
+    </a>
+
+    <hr>
+
+
+    <h1>Travel Buddy Finder</h1>
+
+    <h2>Add Travel Buddy</h2>
+
+    <form action="/buddies" method="POST">
+
+        Buddy ID:
+        <input name="buddyId" required><br><br>
+
+        Name:
+        <input name="name" required><br><br>
+
+        Destination:
+        <input name="destination" required><br><br>
+
+        Age:
+        <input type="number" name="age" required><br><br>
+
+        Budget:
+        <input type="number" name="budget" required><br><br>
+
+        Trip Duration:
+        <input type="number" name="tripDuration" required><br><br>
+
+        Interests:
+        <input name="interests" required><br><br>
+
+        Status:
+        <input name="status" required><br><br>
+
+        <button type="submit">Add Travel Buddy</button>
+
+    </form>
+
+    <hr>
+
+    <h2>View Travel Buddies</h2>
+
+    <a href="/buddies">
+        <button>Show All Buddies</button>
+    </a>
+
+</body>
+</html>
